@@ -36,7 +36,7 @@
 <script>
 import messageHistory from './messageHistory'
 import chatParticipants from './chatProfiles'
-import Header from './Header.vue'
+// import Header from './Header.vue'
 import Footer from './Footer.vue'
 import TestArea from './TestArea.vue'
 import availableColors from './colors'
@@ -44,7 +44,7 @@ import availableColors from './colors'
 export default {
   name: 'app',
   components: {
-    Header, Footer, TestArea
+    
   },
   data() {
     return {
@@ -52,7 +52,7 @@ export default {
       titleImageUrl: 'https://a.slack-edge.com/66f9/img/avatars-teams/ava_0001-34.png',
       messageList: messageHistory,
       newMessagesCount: 0,
-      isChatOpen: false,
+      isChatOpen: true,
       showTypingIndicator: '',
       colors: null,
       availableColors,

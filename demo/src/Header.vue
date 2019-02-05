@@ -2,12 +2,14 @@
   <div class="demo-header" :style="{color: linkColor}">
     <div class="demo-header--title">vue-beautiful-chat</div>
     <div class="demo-header--links">
-      <a href="https://github.com/mattmezza/vue-beautiful-chat" :style="{color: linkColor}">GitHub</a><iframe
+      <a href="https://github.com/mattmezza/vue-beautiful-chat" :style="{color: linkColor}">GitHub</a>
+      
+      <iframe
         src="https://ghbtns.com/github-btn.html?user=mattmezza&repo=vue-beautiful-chat&type=star&count=true"
         frameborder="0"
         scrolling="0"
-        width="94px"
-        height="20px"></iframe>
+        width="9400px"
+        height="200px"></iframe>
     </div>
   </div>
 </template>

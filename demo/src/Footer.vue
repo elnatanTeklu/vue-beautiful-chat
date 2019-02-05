@@ -1,4 +1,4 @@
-<template>
+ <template>
   <div class="demo-footer" :style="{color: linkColor}">
     <div>
       <div>&copy; {{new Date().getFullYear()}} mattmezza/vue-beautiful-chat</div>
@@ -10,9 +10,9 @@
       <div>Check the React version <a :style="{color: linkColor}" href="https://mattmezza.github.io/react-beautiful-chat/" target="new">react-beautiful-chat</a></div>
     </div>
   </div>
-</template>
+</template> 
 
-<script>
+  <script> 
 export default {
   props: {
     colors: {
@@ -47,4 +47,4 @@ export default {
   font-weight: 100;
   font-size: 14px;
 }
-</style>
+</style>  

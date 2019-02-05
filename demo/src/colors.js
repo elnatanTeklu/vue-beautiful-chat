@@ -67,8 +67,10 @@ export default {
         text: '#222222'
       },
       userInput: {
-        bg: '#f4f7f9',
-        text: '#565867'
+        // bg: '#f4f7f9',
+        // text: '#565867'
+        bg: 'black',
+        text: 'white'
       }
     },
     dark: {
